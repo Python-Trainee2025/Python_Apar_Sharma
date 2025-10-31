@@ -1,4 +1,5 @@
 number = int(input("Enter a number: "))
+is_prime = True
 for i in range(2, int(number/2) + 1):
     if number % i == 0:
         print(f"{number} is not a prime number.")
